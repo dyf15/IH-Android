@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_product_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/checkState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:focusable="false" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/product_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:maxLines="3"
+            android:textColor="#333333"
+            android:textSize="16dp" />
+
+
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:layout_marginLeft="45dp"
+        android:layout_gravity="center_vertical"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20dp" />
+
+
+
+
+</LinearLayout>

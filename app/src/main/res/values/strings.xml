@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">IH</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_map">地図</string>
+    <string name="action_next">次へ</string>
+    <string name="action_finish">完了</string>
+    <string name="title_activity_product_detail">ProductDetailActivity</string>
+
+
+    <string name="btn_login">ログイン</string>
+    <string name="btn_logout">ログアウト</string>
+    <string name="btn_continuously">引き続き検品</string>
+    <string name="tx_repository_id">倉庫ID</string>
+    <string name="tx_employee_id">従業員ID</string>
+    <string name="tx_employee_password">パスワード</string>
+    <string name="msg_send_before">サーバにデータを送信します</string>
+    <string name="msg_send_after">サーバにデータを送信しました</string>
+    <string name="msg_parse_before">サーバからの返信内容の解析を開始します</string>
+    <string name="msg_parse_after">サーバからの返信内容の解析が終了しました</string>
+    <string name="msg_err_send">サーバ通信に失敗しました。もう一度送信をお願いします</string>
+    <string name="msg_err_parse">サーバからの返信内容の解析に失敗しました。もう一度送信をお願いします</string>
+
+</resources>
